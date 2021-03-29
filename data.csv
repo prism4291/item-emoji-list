@@ -626,7 +626,7 @@ WITHER_CLOAK,,<a:wither_cloak:825016373662580766>
 ASPECT_OF_THE_DRAGON,,<a:aspect_of_the_dragon:825019543801954324>
 DAEDALUS_AXE,,<a:daedalus_axe:825019566719107152>
 ,{display_name:Ghoul Buster},<a:ghoul_buster:825019580379299851>
-MIDAS_STAFF,{'nbt.ExtraAttribute.winning_bid':'[5-9]{1}[0-9]{7\,}'},<a:midas_staff_100:825019598888763502>
+MIDAS_STAFF,{'nbt.ExtraAttribute.winning_bid':'[5-9]{1}[0-9]{7}[0-9]*'},<a:midas_staff_100:825019598888763502>
 MIDAS_SWORD,{winning_bid:50000000},<a:midas_sword_50m:825019617927102525>
 PIGMAN_SWORD,,<a:pigman_sword:825019633869520996>
 REAPER_SWORD,,<a:reaper_falchion:825019654077415424>
