@@ -539,8 +539,7 @@ RUNAANS_BOW,,<a:runaans_bow:824955650709913630>
 ,,<:yeti_rod:824668178394120282>
 ,,<:yeti_rod_cast:824668190901665802>
 ,,<:adaptive_blade:824668345039192144>
-BONZO_STAFF,{'uuid_startswith':'f'},<:bonzo_staff:824909169823055892>
-BONZO_STAFF,{uuid_startswith:0},<:bonzo_staff:824909169823055892>
+BONZO_STAFF,{'nbt.ExtraAttributes.uuid':'[f0].*'},<:bonzo_staff:824909169823055892>
 BONZO_STAFF,{uuid_startswith:3},<:bonzo_staff_blue:824909182843093033>
 BONZO_STAFF,{uuid_startswith:4},<:bonzo_staff_blue:824909182843093033>
 BONZO_STAFF,{uuid_startswith:1},<:bonzo_staff_green:824909194809180200>
