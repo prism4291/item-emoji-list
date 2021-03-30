@@ -540,20 +540,13 @@ RUNAANS_BOW,,<a:runaans_bow:824955650709913630>
 ,,<:yeti_rod_cast:824668190901665802>
 ,,<:adaptive_blade:824668345039192144>
 BONZO_STAFF,{'nbt.ExtraAttributes.uuid':'[f0].*'},<:bonzo_staff:824909169823055892>
-BONZO_STAFF,{uuid_startswith:3},<:bonzo_staff_blue:824909182843093033>
-BONZO_STAFF,{uuid_startswith:4},<:bonzo_staff_blue:824909182843093033>
-BONZO_STAFF,{uuid_startswith:1},<:bonzo_staff_green:824909194809180200>
-BONZO_STAFF,{uuid_startswith:2},<:bonzo_staff_green:824909194809180200>
-BONZO_STAFF,{uuid_startswith:5},<:bonzo_staff_light_blue:824909209740771328>
-BONZO_STAFF,{uuid_startswith:6},<:bonzo_staff_light_blue:824909209740771328>
-BONZO_STAFF,{uuid_startswith:7},<:bonzo_staff_light_green:824909238153248839>
-BONZO_STAFF,{uuid_startswith:8},<:bonzo_staff_light_green:824909238153248839>
-BONZO_STAFF,{uuid_startswith:9},<:bonzo_staff_orange:824909251692199936>
-BONZO_STAFF,{uuid_startswith:a},<:bonzo_staff_orange:824909251692199936>
-BONZO_STAFF,{uuid_startswith:b},<:bonzo_staff_pink:824909264661381150>
-BONZO_STAFF,{uuid_startswith:c},<:bonzo_staff_pink:824909264661381150>
-BONZO_STAFF,{uuid_startswith:d},<:bonzo_staff_purple:824909291559321631>
-BONZO_STAFF,{uuid_startswith:e},<:bonzo_staff_purple:824909291559321631>
+BONZO_STAFF,{'nbt.ExtraAttributes.uuid':'[34].*'},<:bonzo_staff_blue:824909182843093033>
+BONZO_STAFF,{'nbt.ExtraAttributes.uuid':'[12].*'},<:bonzo_staff_green:824909194809180200>
+BONZO_STAFF,{'nbt.ExtraAttributes.uuid':'[56].*'},<:bonzo_staff_light_blue:824909209740771328>
+BONZO_STAFF,{'nbt.ExtraAttributes.uuid':'[78].*'},<:bonzo_staff_light_green:824909238153248839>
+BONZO_STAFF,{'nbt.ExtraAttributes.uuid':'[9a].*'},<:bonzo_staff_orange:824909251692199936>
+BONZO_STAFF,{'nbt.ExtraAttributes.uuid':'[bc].*'},<:bonzo_staff_pink:824909264661381150>
+BONZO_STAFF,{'nbt.ExtraAttributes.uuid':'[de].*'},<:bonzo_staff_purple:824909291559321631>
 NECRON_BLADE,,<:necron_blade:824910774241198130>
 CRYPT_DREADLORD_SWORD,,<:crypt_dreadlord_sword:824910795388747806>
 CRYPT_WITHERLORD_SWORD,,<:crypt_witherlord_sword:824910808240750602>
@@ -591,8 +584,8 @@ FROZEN_SCYTHE,,<:frozen_scythe:824911418171195392>
 GOLEM_SWORD,,<:golem_sword:824911431652737054>
 HUNTER_KNIFE,,<:hunter_knife:824911446772678696>
 LEAPING_SWORD,,<:leaping_sword:824911462056329238>
-MIDAS_STAFF,{winning_bid:0},<:midas_staff:824911475360792577>
-MIDAS_STAFF,{winning_bid:50000000},<:midas_staff_50:824911486677024789>
+MIDAS_STAFF,,<:midas_staff:824911475360792577>
+MIDAS_STAFF,{'nbt.ExtraAttributes.winning_bid':'[5-9][0-9]{7}.*'},<:midas_staff_50:824911486677024789>
 MIDAS_SWORD,,<:midas_sword:824911505165778967>
 ORNATE_ZOMBIE_SWORD,,<:ornate_zombie_sword:824911530084401173>
 POOCH_SWORD,,<:pooch_sword:824911550593892364>
@@ -607,12 +600,12 @@ SHAMAN_SWORD,,<:shaman_sword:824911681980727337>
 SILK_EDGE_SWORD,,<:silk_edge:824911704303075329>
 SILVER_FANG,,<:silver_fang:824911727140798465>
 SPIDER_SWORD,,<:spider_sword:824911755376459847>
-,{display_name:Sword of the Stars},<:star_sword:824911774964383775>
+,{'nbt.display.name':'.*Sword of the Stars.*'},<:star_sword:824911774964383775>
 TACTICIAN_SWORD,,<:tactician_sword:824911796086374400>
-ASPECT_OF_THE_JERRY,{wood_singularity_count:1},<:thick_aspect_of_the_jerry:824911814051495967>
-SCORPION_FOIL,{wood_singularity_count:1},<:thick_scorpion_foil:824911833524731934>
-TACTICIAN_SWORD,{wood_singularity_count:1},<:thick_tactician_sword:824911871282905108>
-WOOD_SWORD,{wood_singularity_count:1},<:thick_wooden_sword:824911887208546314>
+ASPECT_OF_THE_JERRY,{'nbt.ExtraAttributes.wood_singularity_count':1},<:thick_aspect_of_the_jerry:824911814051495967>
+SCORPION_FOIL,{'nbt.ExtraAttributes.wood_singularity_count':1},<:thick_scorpion_foil:824911833524731934>
+TACTICIAN_SWORD,{'nbt.ExtraAttributes.wood_singularity_count':1},<:thick_tactician_sword:824911871282905108>
+WOOD_SWORD,{'nbt.ExtraAttributes.wood_singularity_count':1},<:thick_wooden_sword:824911887208546314>
 UNDEAD_SWORD,,<:undead_sword:824911905583792161>
 YETI_SWORD,,<:yeti_sword:824911919830925333>
 ZOMBIE_SWORD,,<:zombie_sword:824911935287590923>
@@ -625,13 +618,13 @@ SPIRIT_SWORD,,<a:spirit_sword:825016357300207656>
 WITHER_CLOAK,,<a:wither_cloak:825016373662580766>
 ASPECT_OF_THE_DRAGON,,<a:aspect_of_the_dragon:825019543801954324>
 DAEDALUS_AXE,,<a:daedalus_axe:825019566719107152>
-,{display_name:Ghoul Buster},<a:ghoul_buster:825019580379299851>
-MIDAS_STAFF,{'nbt.ExtraAttributes.winning_bid':'[5-9]{1}[0-9]{7}[0-9]*'},<a:midas_staff_100:825019598888763502>
-MIDAS_SWORD,{winning_bid:50000000},<a:midas_sword_50m:825019617927102525>
+,{'nbt.display.name':'.*Ghoul Buster.*'},<a:ghoul_buster:825019580379299851>
+MIDAS_STAFF,{'nbt.ExtraAttributes.winning_bid':'[1-9][0-9]{8}.*'},<a:midas_staff_100:825019598888763502>
+MIDAS_SWORD,{'nbt.ExtraAttributes.winning_bid':'[5-9][0-9]{7}.*'},<a:midas_sword_50m:825019617927102525>
 PIGMAN_SWORD,,<a:pigman_sword:825019633869520996>
 REAPER_SWORD,,<a:reaper_falchion:825019654077415424>
 SWORD_OF_REVELATIONS,,<a:sword_of_revelations:825019677360390144>
-SWORD_OF_REVELATIONS,{wood_singularity_count:1},<a:thick_sword_of_revelations:825019800865603594>
+SWORD_OF_REVELATIONS,{'nbt.ExtraAttributes.wood_singularity_count':1},<a:thick_sword_of_revelations:825019800865603594>
 ,,<:carrot_hoe_1:824912437379727391>
 ,,<:carrot_hoe_2:824912455456522270>
 ,,<:carrot_hoe_3:824912474989396028>
